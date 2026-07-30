@@ -633,6 +633,6 @@ Always obtain proper authorization before testing systems you do not own.
 
 <div align="center">
 
-**344 tools documented. 200,000+ lines. 12 phases complete. Updated weekly.**
+**344 tools documented. 200,000+ lines. 12 phases complete.**
 
 </div>
