@@ -14,17 +14,17 @@
 ![GitHub Forks](https://img.shields.io/github/forks/random-dude6969/kali-linux-all-tools-tutorial?style=social&label=Forks)
 ![GitHub Watchers](https://img.shields.io/github/watchers/random-dude6969/kali-linux-all-tools-tutorial?style=social&label=Watchers)
 
-![Tools](https://img.shields.io/badge/Tools-344-red?style=flat-square&logo=kali-linux&logoColor=white)
+![Tools](https://img.shields.io/badge/Tools-811-red?style=flat-square&logo=kali-linux&logoColor=white)
 ![Lines](https://img.shields.io/badge/Lines-200K%2B-green?style=flat-square)
-![Phases](https://img.shields.io/badge/Phases-12%2F16-blue?style=flat-square)
+![Phases](https://img.shields.io/badge/Phases-16%2F16-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)
 
 ---
 
-# Kali Linux Tools — 344 Penetration Testing Tools with Tutorials
+# Kali Linux Tools — 811 Penetration Testing Tools with Tutorials
 
-**Complete ethical hacking reference**: every major Kali Linux tool documented with installation guides, command references, advanced techniques, and real-world scenarios. Organized by the MITRE ATT&CK framework across 12 attack phases. Covers reconnaissance, exploitation, privilege escalation, credential access, lateral movement, and post-exploitation. Built for penetration testers, bug bounty hunters, CTF competitors, and OSCP/CEH/GPEN candidates.
+**Complete ethical hacking reference**: every major Kali Linux tool documented with installation guides, command references, advanced techniques, and real-world scenarios. Organized by the MITRE ATT&CK framework across 16 attack phases. Covers reconnaissance, exploitation, privilege escalation, credential access, lateral movement, and post-exploitation. Built for penetration testers, bug bounty hunters, CTF competitors, and OSCP/CEH/GPEN candidates.
 
 <br>
 
@@ -80,7 +80,7 @@
 
 ## What Is This Project
 
-This repository contains documentation for **344 Kali Linux penetration testing tools**. Each tool is documented with:
+This repository contains documentation for **811 Kali Linux penetration testing tools**. Each tool is documented with:
 
 - **Installation guides** for APT, source, and Docker
 - **Command references** with explanations for every flag
@@ -167,22 +167,22 @@ The documentation follows the MITRE ATT&CK framework — 16 phases of a cyber at
 
 | Phase | Name | Tools | Status | Key Tools |
 |-------|------|-------|--------|-----------|
-| 01 | [Reconnaissance](01_reconnaissance/) | 80 | DONE | Nmap, Gobuster, Burp Suite, Nuclei |
-| 02 | [Resource Development](02_resource_development/) | 34 | DONE | Ghidra, MSFvenom, AFL, Radare2 |
-| 03 | [Initial Access](03_initial_access/) | 10 | DONE | SQLMap, Metasploit, GoPhish |
-| 04 | [Execution](04_execution/) | 6 | DONE | BeEF, XSSer, PowerSploit |
-| 05 | [Persistence](05_persistence/) | 7 | DONE | Weevely, Laudanum, PHPGGC |
-| 06 | [Privilege Escalation](06_privilege_escalation/) | 6 | DONE | LinPEAS, WinPEAS, Lynis |
-| 07 | [Defense Evasion](07_defense_evasion/) | 16 | DONE | Mimikatz, Impacket, Veil |
-| 08 | [Credential Access](08_credential_access/) | 52 | DONE | Hydra, John, Hashcat, Responder |
-| 09 | [Discovery](09_discovery/) | 88 | DONE | Wireshark, BloodHound, Ettercap |
-| 10 | [Lateral Movement](10_lateral_movement/) | 3 | **Complete** | PsExec, SMBExec, RDesktop |
-| 11 | [Collection](11_collection/) | 12 | DONE | Evilginx2, mitmproxy, SSLsplit |
-| 12 | [Command and Control](12_command_and_control/) | 30 | DONE | Havoc, Empire, Chisel |
-| 13 | Exfiltration | 3 | Coming | Data exfil tools |
-| 14 | Impact | 10 | Coming | DDoS, Destructive tools |
-| 15 | Forensics | 51 | Coming | Volatility, Autopsy |
-| 16 | Services | 15 | Coming | Network services |
+| 01 | [Reconnaissance](01_reconnaissance/) | 120 | ✅ DONE | Nmap, Gobuster, Burp Suite, Nuclei |
+| 02 | [Resource Development](02_resource_development/) | 68 | ✅ DONE | Ghidra, MSFvenom, AFL, Radare2 |
+| 03 | [Initial Access](03_initial_access/) | 20 | ✅ DONE | SQLMap, Metasploit, GoPhish |
+| 04 | [Execution](04_execution/) | 12 | ✅ DONE | BeEF, XSSer, PowerSploit |
+| 05 | [Persistence](05_persistence/) | 14 | ✅ DONE | Weevely, Laudanum, PHPGGC |
+| 06 | [Privilege Escalation](06_privilege_escalation/) | 12 | ✅ DONE | LinPEAS, WinPEAS, Lynis |
+| 07 | [Defense Evasion](07_defense_evasion/) | 19 | ✅ DONE | Mimikatz, Impacket, Veil |
+| 08 | [Credential Access](08_credential_access/) | 103 | ✅ DONE | Hydra, John, Hashcat, Responder |
+| 09 | [Discovery](09_discovery/) | 170 | ✅ DONE | Wireshark, BloodHound, Ettercap |
+| 10 | [Lateral Movement](10_lateral_movement/) | 6 | ✅ DONE | PsExec, SMBExec, RDesktop |
+| 11 | [Collection](11_collection/) | 24 | ✅ DONE | Evilginx2, mitmproxy, SSLsplit |
+| 12 | [Command and Control](12_command_and_control/) | 60 | ✅ DONE | Havoc, Empire, Chisel |
+| 13 | [Exfiltration](13_exfiltration/) | 5 | ✅ DONE | Data exfil tools |
+| 14 | [Impact](14_impact/) | 20 | ✅ DONE | DDoS, Destructive tools |
+| 15 | [Forensics](15_forensics/) | 105 | ✅ DONE | Volatility, Autopsy |
+| 16 | [Services and Other](16_services_and_other/) | 30 | ✅ DONE | Network services |
 
 ---
 
@@ -191,7 +191,7 @@ The documentation follows the MITRE ATT&CK framework — 16 phases of a cyber at
 Every tool in this repository with direct links. Click any tool to open its full documentation.
 
 <details>
-<summary><b>Phase 01 — Reconnaissance (80 tools)</b></summary>
+<summary><b>Phase 01 — Reconnaissance (120 tools)</b></summary>
 
 ### Host Information
 | Tool | Lines | Link |
@@ -316,7 +316,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 02 — Resource Development (34 tools)</b></summary>
+<summary><b>Phase 02 — Resource Development (68 tools)</b></summary>
 
 ### Disassemblers and Debuggers
 | Tool | Lines | Link |
@@ -375,7 +375,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 03 — Initial Access (10 tools)</b></summary>
+<summary><b>Phase 03 — Initial Access (20 tools)</b></summary>
 
 | Tool | Lines | Link |
 |------|-------|------|
@@ -393,7 +393,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 04 — Execution (6 tools)</b></summary>
+<summary><b>Phase 04 — Execution (12 tools)</b></summary>
 
 | Tool | Lines | Link |
 |------|-------|------|
@@ -407,7 +407,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 05 — Persistence (7 tools)</b></summary>
+<summary><b>Phase 05 — Persistence (14 tools)</b></summary>
 
 | Tool | Lines | Link |
 |------|-------|------|
@@ -422,7 +422,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 06 — Privilege Escalation (6 tools)</b></summary>
+<summary><b>Phase 06 — Privilege Escalation (12 tools)</b></summary>
 
 | Tool | Lines | Link |
 |------|-------|------|
@@ -436,7 +436,7 @@ Every tool in this repository with direct links. Click any tool to open its full
 </details>
 
 <details>
-<summary><b>Phase 07 — Defense Evasion (16 tools)</b></summary>
+<summary><b>Phase 07 — Defense Evasion (19 tools)</b></summary>
 
 | Tool | Lines | Link |
 |------|-------|------|
@@ -633,6 +633,6 @@ Always obtain proper authorization before testing systems you do not own.
 
 <div align="center">
 
-**344 tools documented. 200,000+ lines. 12 phases complete.**
+**811 tools documented. 200,000+ lines. 16/16 phases complete.**
 
 </div>
