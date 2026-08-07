@@ -1,3 +1,35 @@
-Nothing should be ignored in this case, as the only change is adding a README.md file, which is a source/config file. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
 
-Therefore, the output is empty.
+# Virtual environments
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+```

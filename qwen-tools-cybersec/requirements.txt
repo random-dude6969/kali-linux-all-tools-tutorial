@@ -1,0 +1,23 @@
+# QwenSec Recon Suite - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core HTTP library for web fingerprinting
+requests>=2.31.0
+
+# DNS resolution library
+dnspython>=2.4.0
+
+# Colored terminal output
+colorama>=0.4.6
+
+# Progress bars for verbose mode
+tqdm>=4.66.0
+
+# Optional: Advanced port scanning (requires nmap installed on system)
+# python-nmap>=0.7.1
+
+# Type hints support (Python 3.8+)
+typing-extensions>=4.9.0
+
+# HTTP library utilities
+urllib3>=2.1.0

@@ -1,0 +1,146 @@
+# Configuration file for QwenSec Recon Suite
+# Copy this file to config.yaml and customize as needed
+
+# Scanner Configuration
+scanner:
+  # Default number of threads for parallel scanning
+  default_threads: 10
+  
+  # Timeout in seconds for network operations
+  timeout: 5
+  
+  # Maximum retries for failed requests
+  max_retries: 3
+  
+  # Backoff factor for retries (exponential backoff)
+  backoff_factor: 0.5
+
+# Subdomain Enumeration
+subdomains:
+  # Enable/disable subdomain enumeration
+  enabled: true
+  
+  # Custom wordlist path (leave empty to use built-in list)
+  wordlist_path: ""
+  
+  # Minimum subdomain length to check
+  min_length: 2
+
+# Port Scanning
+ports:
+  # Enable/disable port scanning
+  enabled: true
+  
+  # Common ports to scan (default list in tool)
+  # Add custom ports here
+  custom_ports: []
+  
+  # Port scan timeout per port
+  port_timeout: 3
+
+# Web Fingerprinting
+web:
+  # Enable/disable web fingerprinting
+  enabled: true
+  
+  # User-Agent string for HTTP requests
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+  
+  # Follow redirects
+  follow_redirects: true
+  
+  # Maximum redirect depth
+  max_redirects: 5
+
+# SSL/TLS Analysis
+ssl:
+  # Enable/disable SSL analysis
+  enabled: true
+  
+  # Verify SSL certificates
+  verify_certificates: false
+  
+  # Minimum TLS version to accept
+  min_tls_version: "TLSv1.2"
+
+# DNS Enumeration
+dns:
+  # Enable/disable DNS enumeration
+  enabled: true
+  
+  # DNS record types to query
+  record_types:
+    - A
+    - AAAA
+    - MX
+    - NS
+    - TXT
+    - CNAME
+    - SOA
+  
+  # Custom DNS servers (leave empty to use system defaults)
+  nameservers: []
+  # Example:
+  # nameservers:
+  #   - 8.8.8.8
+  #   - 8.8.4.4
+
+# Output Configuration
+output:
+  # Default output format (json, html, markdown)
+  default_format: json
+  
+  # Save logs to file
+  save_logs: true
+  
+  # Log directory
+  log_directory: "./logs"
+  
+  # Include timestamps in output
+  include_timestamps: true
+
+# Logging Configuration
+logging:
+  # Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  level: INFO
+  
+  # Log format
+  format: "[%(asctime)s] [%(levelname)s] %(message)s"
+  
+  # Date format
+  date_format: "%H:%M:%S"
+  
+  # Log to file
+  file_logging: true
+  
+  # Log file path
+  log_file: "./logs/qwen_recon.log"
+
+# Rate Limiting (to avoid detection/blocking)
+rate_limiting:
+  # Enable rate limiting
+  enabled: false
+  
+  # Delay between requests (in seconds)
+  delay: 0.5
+  
+  # Maximum requests per minute
+  max_per_minute: 60
+
+# Advanced Settings
+advanced:
+  # Disable SSL warnings
+  disable_ssl_warnings: true
+  
+  # Proxy settings (optional)
+  proxy: null
+  # Example:
+  # proxy:
+  #   http: http://localhost:8080
+  #   https: https://localhost:8080
+  
+  # Debug mode
+  debug: false
+  
+  # Skip certificate validation
+  skip_cert_validation: true
